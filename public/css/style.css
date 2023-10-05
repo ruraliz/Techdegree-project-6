@@ -372,3 +372,6 @@
     text-transform: uppercase;
     color: #555;
   }
+  .skills-contact-box.box li {
+    list-style: none;
+  }
