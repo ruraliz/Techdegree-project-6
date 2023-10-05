@@ -225,6 +225,7 @@
   .portfolio-intro {
     max-width: 1200px;
     padding: 40px 50px 30px;
+    background-image:url('/static/images/back.jpeg')
   }
   
   .portfolio-intro h1 {
@@ -235,6 +236,8 @@
   
   .portfolio-intro p {
     text-rendering: optimizeLegibility;
+    font-weight:bold;
+    color: #fefefe;
     font-size: 125%;
     margin: 0 auto;
     padding-bottom: 40px;
@@ -266,6 +269,9 @@
   /* 
     About and project pages styles 
   */
+  .portfolio-about{
+    background-image:url('/static/images/footer.jpg');
+  }
   .about-intro-box p,
   .project-info-box p {
     font-size: 125%;
@@ -274,6 +280,13 @@
   .about-bio p {
     font-size: 15px;
     padding-top: 40px;
+    color: #372d08; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 14px; 
+    line-height: 24px; 
+    margin: 0 0 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
   }
   
   .skills-contact-box ul {
