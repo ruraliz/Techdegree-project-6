@@ -12,7 +12,9 @@ router.get('/about', (req, res)=>{
 })
 
 router.get('/project/:id', (req, res)=>{
-    res.render('project')
+    const projectId = req.params.id;
+    const project = data.projects.find(project => project.id.toString() === projectId);
+    res.render('project', {project})
 })
 
 

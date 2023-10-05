@@ -362,3 +362,13 @@
       max-width: 1200px;
     }
   }
+
+  /*error button*/
+  .button-primary-small{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #555;
+  }

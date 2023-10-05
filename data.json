@@ -4,43 +4,43 @@
                 "id":0,
                 "project_name": "Random Quote Generator",
                 "description":"an app that displays random famous quotes each time a button is clicked.",
-                "technologies":"Javscript, HTML, CSS",
+                "technologies":["Javscript", "HTML", "CSS"],
                 "live_link": "https://ruraliz.github.io/Techdegree-project-1/",
                 "github_link":"https://github.com/ruraliz/Techdegree-project-1",
-                "image_urls":["images/project1/mainpage.png", "images/project1/ex2.png"]
+                "image_urls":["images/project1/mainpage.png", "images/project1/ex2.png", "images/project1/tags.png", "images/project1/showbutton.png"]
             },
             {
                 "id":1,
                 "project_name": "Data Pagination and Filtering",
                 "description":"using pagination to enhance the usability of a web page.",
-                "technologies":"Javscript, HTML, CSS",
+                "technologies":["Javscript", "HTML", "CSS"],
                 "live_link":"https://ruraliz.github.io/Techdegree-project-2/",
                 "github_link":"https://github.com/ruraliz/Techdegree-project-2",
-                "image_urls":["images/project2/mainpage.png", "images/project2/pagination.png", "images/project2/search.png"]
+                "image_urls":["images/project2/mainpage.png", "images/project2/pagination.png", "images/project2/search.png","images/project2/pag.png"]
             },
             {
                 "id":2,
                 "project_name": "Interactive Form",
                 "description":"Using JavaScript to enhance interactive registration form",
-                "technologies":"Javscript, HTML, CSS",
+                "technologies":["Javscript", "HTML", "CSS"],
                 "live_link":"https://ruraliz.github.io/Techdegree-project-3/",
                 "github_link":"https://github.com/ruraliz/Techdegree-project-3",
-                "image_urls":["images/project3/mainpage.png", "images/project3/errormessage.png", "images/project3/otheroption.png"]
+                "image_urls":["images/project3/mainpage.png", "images/project3/errormessage.png", "images/project3/otheroption.png", "images/project3/customerror.png"]
             },
             {
                 "id":3,
                 "project_name": "OOP Game",
                 "description":"browser-based, word guessing game: 'Phrase Hunter'",
-                "technologies":"Javscript, HTML, CSS",
-                "live_link":"#",
+                "technologies":["Javscript", "HTML", "CSS"],
+                "live_link":"https://ruraliz.github.io/Techdegree-project-4/",
                 "github_link":"https://github.com/ruraliz/Techdegree-project-4",
-                "image_urls":["images/project4/startpage.png", "images/project4/maingame.png", "images/project4/playpage.png", "images/project4/losepage.png", "images/project4/winpage.png"]
+                "image_urls":["images/project4/startpage.png", "images/project4/playpage.png", "images/project4/losepage.png", "images/project4/winpage.png"]
             },
             {
                 "id":4,
                 "project_name": "Public API Request",
                 "description":"App for a fictional company using the Random User Generator API",
-                "technologies":"Javscript, HTML, CSS",
+                "technologies":["Javscript", "HTML", "CSS"],
                 "live_link":"https://ruraliz.github.io/Techdegree-project-5/",
                 "github_link":"https://github.com/ruraliz/Techdegree-project-5",
                 "image_urls":["images/project5/mainpage.png", "images/project5/modal.png", "images/project5/search.png", "images/project5/nextprev.png"]
