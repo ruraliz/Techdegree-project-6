@@ -10,16 +10,18 @@ app.use(mainRoutes)
 
 
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-  });
-  
-  app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
-  });
+  const error = new Error('Not Found')
+  error.status = 404;
+  res.status(404)
+  res.render('page-not-found', { error } );
+});
+
+app.use((err, req, res, next) => {
+    err.status = err.status || 500
+    err.message = err.message || 'Internal Server Error';
+    res.status(err.status)
+    res.render('error', { error: err })
+});
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
