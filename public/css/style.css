@@ -385,6 +385,7 @@
     text-transform: uppercase;
     color: #555;
   }
+  /*remove bullet from li of skills*/
   .skills-contact-box.box li {
     list-style: none;
   }

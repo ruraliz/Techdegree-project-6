@@ -1,14 +1,17 @@
-const express = require('express');
+const express = require('express'); //require express depedency 
 const app = express();
 
+//serve static files 
 app.use('/static', express.static('public'));
 
+//setting view engine to pug 
 app.set('view engine', 'pug');
 
+//routes 
 const mainRoutes = require('./routes');
 app.use(mainRoutes)
 
-
+//error Handler for 404 and other errors 
 app.use((req, res, next) => {
   const error = new Error('Not Found')
   error.status = 404;
