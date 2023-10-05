@@ -2,8 +2,8 @@ extends layout.pug
 
 block content
   section.desk
-    h1= `404 - Page Not Found`
-    p.not-found-p= `Oops!  It looks like the page you're looking for does not exist.`
+    h1= `Status: ${error.status}`
+    p.not-found-p= `Message: ${error.message}`
     img.desk-items(src='/static/images/desk.svg')
     a.button-primary-small(href='/') Go Home &rarr;
     .paper
