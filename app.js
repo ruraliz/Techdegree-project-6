@@ -5,11 +5,9 @@ app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
 
-const data = require('./data.json')
-const projects= data.projects
 const mainRoutes = require('./routes');
-
 app.use(mainRoutes)
+
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');

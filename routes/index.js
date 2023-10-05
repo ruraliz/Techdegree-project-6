@@ -4,7 +4,7 @@ const data = require('../data.json')
 const projects= data.projects
 
 router.get('/', (req, res)=>{
-    res.render('home', {projects: projects})
+    res.render('index', {projects})
 })
 
 router.get('/about', (req, res)=>{
