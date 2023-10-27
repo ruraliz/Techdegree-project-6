@@ -14,7 +14,11 @@ router.get('/about', (req, res)=>{// /about route, renders about pug file.
 router.get('/project/:id', (req, res)=>{ // project/:id route that leads to each project based on id.
     const projectId = req.params.id;
     const project = data.projects.find(project => project.id.toString() === projectId);
-    res.render('project', {project})
+    if(project) {
+        res.render('project', {project})
+    }else{
+        res.render('page-not-found')
+    }
 })
 
 
