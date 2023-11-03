@@ -225,7 +225,8 @@
   .portfolio-intro {
     max-width: 1200px;
     padding: 40px 50px 30px;
-    background-image:url('/static/images/back.jpeg')
+    background-image:url('/static/images/back.jpeg');
+    background-size: cover;
   }
   
   .portfolio-intro h1 {
