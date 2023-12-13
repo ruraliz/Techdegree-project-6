@@ -2,10 +2,10 @@ extends layout.pug
 
 block content
   section.desk
-    h1= `Status: ${error.status}`
-    p.not-found-p= `Message: ${error.message}`
+    h1=`Status: ${err.status}`
+    p.not-found-p=`Message: ${err.message}`
     img.desk-items(src='/static/images/desk.svg')
     a.button-primary-small(href='/') Go Home &rarr;
     .paper
-      pre.stack-trace= `${error.stack}`
+      pre.stack-trace= `${err.stack}`
     .tear

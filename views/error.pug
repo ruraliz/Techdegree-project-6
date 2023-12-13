@@ -3,10 +3,10 @@ extends layout.pug
 block content
   section.desk
     h1= `Server Error`
-    h2= `Error status code: ${error.status} - Server Error`
-    p.error-p= `Message: ${error.message}`
+    h2= `Error status code: ${err.status} - Server Error`
+    p.error-p= `Message: ${err.message}`
     img.desk-items(src='/static/images/desk.svg')
     a.button-primary-small(href='/') Go Home &rarr;
     .paper
-      pre.stack-trace= `${error.stack}`
+      pre.stack-trace= `${err.stack}`
     .tear
