@@ -12,35 +12,27 @@ const mainRoutes = require('./routes');
 app.use(mainRoutes)
 
 //error Handler for 404 and other errors 
-// app.use((req, res, next) => {
-//   const error = new Error('Not Found')
-//   error.status = 404;
-//   res.status(404)
-//   res.render('page-not-found', { error } );
-// });
-
-// app.use((err, req, res, next) => {
-//     err.status = err.status || 500
-//     err.message = err.message || 'Internal Server Error';
-//     res.status(err.status)
-//     res.render('error', { error: err })
-// });
 
 app.use((req, res, next) => {
-  res.status(404).render("page-not-found");
+  const err = new Error("Not Found");
+  err.status = 404;
+  next(err);
 });
 
-/* Global error handler */
 app.use((err, req, res, next) => {
-  if (err.status === 404) {
-    res.render("page-not-found", { err });
+  if(err.status === 404){
+      res.status(404);
+      err.status = 404;
+      err.message = " This page was not found";
+      res.render('page-not-found', {err});
   } else {
-    err.status = 500;
-    err.message = "Sorry! It looks like something went wrong on the server.";
-    res.render("error", { err });
+      err.status =  err.status || 500;
+      console.log(err.status);
+      err.message = err.message || 'Internal Server Error';
+      res.render('error', {err});
   }
-  console.log(err.message);
-});
+})
+
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
