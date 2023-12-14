@@ -1,9 +1,8 @@
 const express = require('express'); //require express depedency 
-//The first line here is grabbing the main Express module from the package you installed
-const app = express();
-//we then run on the second line to create our app variable
 
-// To define a middleware function, we call app.use() and pass it a function.
+const app = express();
+// create our app variable
+
 
 //serve static files 
 app.use('/static', express.static('public'));
@@ -15,7 +14,7 @@ app.set('view engine', 'pug');
 //routes 
 const mainRoutes = require('./routes');
 app.use(mainRoutes)
-//We will next define our server in another file: app.js and import the routes defined in the file: routes.js. 
+//We will next define our server in another file: index.js and import the routes defined in the file: routes.js. 
 
 
 //We can optionally pass a path to the middleware, which will only handle requests to that route. 

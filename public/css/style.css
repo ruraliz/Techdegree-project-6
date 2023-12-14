@@ -393,3 +393,10 @@
   .skills-contact-box.box li {
     list-style: none;
   }
+
+  /*additonal styles */
+
+  .project-tech-links-box.box ul{
+    background-image: linear-gradient(grey, rgb(244, 171, 244));
+    font-weight: bold;
+  }
