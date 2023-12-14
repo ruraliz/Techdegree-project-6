@@ -270,8 +270,11 @@
   /* 
     About and project pages styles 
   */
-  .portfolio-about{
-    background-image:url('/static/images/footer.jpg');
+  .skills-contact-box{
+    background-image: linear-gradient(grey, rgb(244, 171, 244));
+  }
+  .portfolio-about nav{
+    background-image: linear-gradient(grey, rgb(244, 171, 244));
   }
   .about-intro-box p,
   .project-info-box p {
