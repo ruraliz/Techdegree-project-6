@@ -44,6 +44,33 @@
                 "live_link":"https://ruraliz.github.io/Techdegree-project-5/",
                 "github_link":"https://github.com/ruraliz/Techdegree-project-5",
                 "image_urls":["images/project5/mainpage.png", "images/project5/modal.png", "images/project5/search.png", "images/project5/nextprev.png"]
+            },
+            {
+                "id":5,
+                "project_name": "React Gallery App",
+                "description":"Using a React library to create an image gallery app on a modern single-page application.",
+                "technologies":["React, Javscript", "HTML", "CSS"],
+                "live_link":"https://github.com/ruraliz/Techdegree-project-7-React-Gallery-App",
+                "github_link":"https://github.com/ruraliz/Techdegree-project-7-React-Gallery-App",
+                "image_urls":["images/project7/catpage.png", "images/project7/dogpage.png", "images/project7/newyork.png", "images/project7/sunshine.png"]
+            },
+            {
+                "id":6,
+                "project_name": "SQL Library Manager",
+                "description":"Build a web application that will include pages to list, add, update, and delete books.",
+                "technologies":["SQL, Javscript", "HTML", "CSS"],
+                "live_link":"https://github.com/ruraliz/Techdegree-project8-SQL-Library-Manager",
+                "github_link":"https://github.com/ruraliz/Techdegree-project8-SQL-Library-Manager",
+                "image_urls":["images/project8/mainpage.png", "images/project8/details.png", "images/project8/newbook.png", "images/project8/validation.png"]
+            },
+            {
+                "id":7,
+                "project_name": "Full Stack App with React and a REST API",
+                "description":"A full stack app with React and a Rest Api. Using React to create a client for existing school database REST API(from project 9).",
+                "technologies":["React, Javscript", "HTML", "CSS"],
+                "live_link":"https://github.com/ruraliz/Techdegree-project-10-Full-Stack-App",
+                "github_link":"https://github.com/ruraliz/Techdegree-project-10-Full-Stack-App",
+                "image_urls":["images/project10/main.png", "images/project10/signin.png", "images/project10/detail.png", "images/project10/valid.png"]
             }
 
         ]
