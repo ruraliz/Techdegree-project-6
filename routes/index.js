@@ -12,7 +12,7 @@ router.get('/about', (req, res)=>{// /about route, renders about pug file.
 })
 
 router.get('/project/:id', (req, res, next)=>{ // project/:id route that leads to each project based on id.
-    const projectId = req.params.id; //By using req.params, you can extract specific values from the URL and use them in the  application logic.
+    const projectId = req.params.id; //By using req.params, you can extract specific values from the URL and use them in the application logic.
     const project = data.projects.find(project => project.id.toString() === projectId);
     if(project) { 
         res.render('project', {project})

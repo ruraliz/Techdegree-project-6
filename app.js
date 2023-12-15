@@ -1,4 +1,4 @@
-const express = require('express'); //require express depedency 
+const express = require('express'); //import express with require keyword.
 
 const app = express();
 // create our app variable calling express()
