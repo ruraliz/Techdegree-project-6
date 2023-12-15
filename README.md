@@ -1,5 +1,14 @@
 # Techdegree-project-6
 Portfolio site that showcases my Treehouse Techdegree projects
+
+### Technologies used
+- Node.js
+- npm
+- express.js
+- pug template engine
+- middleware
+- error handling
+
 ### Additional styling.
 
 #### Styles changes 
@@ -65,4 +74,14 @@ ul
           li
             img(src='/static/images/Visual_Studio_Code_1.18_icon.svg' width='40px')
  ```
+
+#### Project Challenges 
+- Understanding how error handlers work and how to render the error pugs
+- Understanding the importance of indentations in pugs and how to convert html to pug. 
+
+#### Future Improvements 
+- Adding more styling 
+- Deploying live demos of other projects from 7-10.
+- Adding other past projects that I have worked on 
+- Adding feature to email me
 
