@@ -4,7 +4,7 @@ const data = require('../data.json') //set data in json file to data.
 const projects= data.projects //set projects object in data to projects. 
 
 router.get('/', (req, res)=>{ //home route, renders to index pug file .
-    res.render('index', {projects}) //render index pug and pass in projects 
+    res.render('index', {projects}) //render index view and pass in projects 
 })
  //The req is a giant object which will be received from the user and res is an object which will be sent to the user after the function finishes execution.
 router.get('/about', (req, res)=>{// /about route, renders about pug file.
