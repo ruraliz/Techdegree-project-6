@@ -1,5 +1,5 @@
 const express = require('express') 
-const router= express.Router()
+const router= express.Router() //creates a new router object
 const data = require('../data.json') //set data in json file to data.
 const projects= data.projects //set projects object in data to projects. 
 
